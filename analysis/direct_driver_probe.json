@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-30",
+  "type": "live hardware acquisition, uncalibrated channel ratio",
+  "connection": "Driver connected to measurement terminals, confirmed by user",
+  "input_device": "1 - Linea (2- USB AUDIO CODEC), MME",
+  "output_device": "5 - Altoparlanti (2- USB AUDIO CODEC), MME",
+  "sample_rate_hz": 44100,
+  "output_channels": "both, identical signal",
+  "digital_peak_amplitude": 0.02,
+  "minimum_settle_seconds": 0.5,
+  "frequency_hz": [20, 50, 100, 135, 200, 500, 1000, 5000, 10000, 20000],
+  "ratio_real": [7.95768564, 7.81202728, 7.21214079, 5.63901957, 4.41821106, 7.80039339, 8.04303272, 7.56064645, 7.26344153, 6.64154347],
+  "ratio_imag": [-0.4048414, -0.78609288, -1.74969323, -2.51121023, 2.49229232, 0.63077625, -0.01657112, -0.7479976, -1.06532742, -1.46041882],
+  "quality_min_channel_db": [27.3247083, 27.8493415, 28.47708949, 30.22065652, 31.76964045, 28.04068313, 27.7114897, 28.29540581, 28.17353957, 27.68185011],
+  "result": "All 10 frequencies passed existing signal and stream checks",
+  "limitations": "No open/short/load calibration performed. Ratios are dimensionless, not ohms. Absolute accuracy and equivalence to original DATS exports are not validated. Values copied from console output at displayed precision."
+}

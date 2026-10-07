@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# catture USB grezze: non versionate (tools/extract_stimulus.py le richiede per rigenerare lo stimolo)
+*.pcapng

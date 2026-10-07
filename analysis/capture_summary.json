@@ -1,0 +1,59 @@
+{
+  "collegamento_e_apertura_sw.pcapng": {
+    "frames": 126,
+    "duration_seconds": 32.699202,
+    "truncated_frames": 0,
+    "device_address_2_isochronous_payloads": {}
+  },
+  "misura_driver_reale.pcapng": {
+    "frames": 1234,
+    "duration_seconds": 11.413807,
+    "truncated_frames": 0,
+    "device_address_2_isochronous_payloads": {
+      "0x02": {
+        "urbs_with_payload": 331,
+        "bytes": 635520,
+        "nonzero_bytes": 272821
+      },
+      "0x84": {
+        "urbs_with_payload": 261,
+        "bytes": 460404,
+        "nonzero_bytes": 354699
+      }
+    }
+  },
+  "misura_R_1K.pcapng": {
+    "frames": 2382,
+    "duration_seconds": 21.893898,
+    "truncated_frames": 0,
+    "device_address_2_isochronous_payloads": {
+      "0x02": {
+        "urbs_with_payload": 626,
+        "bytes": 1201920,
+        "nonzero_bytes": 545549
+      },
+      "0x84": {
+        "urbs_with_payload": 522,
+        "bytes": 920808,
+        "nonzero_bytes": 700905
+      }
+    }
+  },
+  "misura_shorted_terminal.pcapng": {
+    "frames": 2606,
+    "duration_seconds": 39.22866,
+    "truncated_frames": 0,
+    "device_address_2_isochronous_payloads": {
+      "0x02": {
+        "urbs_with_payload": 737,
+        "bytes": 1415040,
+        "nonzero_bytes": 769068
+      },
+      "0x84": {
+        "urbs_with_payload": 523,
+        "bytes": 922572,
+        "nonzero_bytes": 659147
+      }
+    }
+  }
+}

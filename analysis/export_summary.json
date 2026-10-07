@@ -1,0 +1,61 @@
+{
+  "source": "real drv.txt",
+  "points": 344,
+  "frequency_range_hz": [
+    1.029,
+    20642.546
+  ],
+  "maximum_sampled_impedance": {
+    "frequency_hz": 135.611,
+    "impedance_ohm": 28.161,
+    "phase_deg": -0.951
+  },
+  "original_header": [
+    "This data was exported from the Dayton Audio Test System: DATS",
+    "",
+    "Piston Diameter = 0 mm",
+    "f(s)= 134.8 Hz",
+    "R(e)= 3.671 Ohms",
+    "Z(max)= 28.28 Ohms",
+    "Q(ms)= 4.414",
+    "Q(es)= 0.6583",
+    "Q(ts)= 0.5729",
+    "V(as)= 0 liters     (0 cubic feet)",
+    "L(e)= 0 mH",
+    "n(0)= 0 %",
+    "SPL= 0 1W/1m",
+    "M(ms)= 0 grams",
+    "C(ms)= 0 mm/N",
+    "BL= 0",
+    "K(r)= 2.37",
+    "X(r)= 0.07631",
+    "K(i)= 7.98e-05",
+    "X(i)= 0.9173",
+    "",
+    ""
+  ],
+  "projects": {
+    "1k.tzz": {
+      "bytes": 6292930,
+      "sha256": "72531540437a8483b65b211cbffbce9a31f4ccdf67d5d7c2788f5422e57fdc2d",
+      "first_8_bytes_as_float64_le": 2.0,
+      "offset_100_as_uint32_le": 0,
+      "note": "Raw interpretations only; field meanings and binary layout unverified."
+    },
+    "real drv.tzz": {
+      "bytes": 6292930,
+      "sha256": "eb1e10b62cf73b143e1c82687a709592a70c6194e1f78529c634d5b9aaf3f47b",
+      "first_8_bytes_as_float64_le": 2.0,
+      "offset_100_as_uint32_le": 0,
+      "note": "Raw interpretations only; field meanings and binary layout unverified."
+    },
+    "shorted.tzz": {
+      "bytes": 6292930,
+      "sha256": "547f311a8dcd47898f10fe9f1b9399aab740c35164c0929f593ba159dcb48d21",
+      "first_8_bytes_as_float64_le": 2.0,
+      "offset_100_as_uint32_le": 0,
+      "note": "Raw interpretations only; field meanings and binary layout unverified."
+    }
+  },
+  "validation": "Reference export only. USB-derived impedance has not yet been reconstructed or compared."
+}
